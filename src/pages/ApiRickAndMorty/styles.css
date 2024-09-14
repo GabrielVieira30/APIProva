@@ -1,0 +1,56 @@
+body {  
+    margin: 0;  
+    font-family: 'Arial', sans-serif; /* Fonte padrão */  
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradiente de fundo suave */  
+    display: flex;  
+    flex-direction: column; /* Permite que a página tenha uma direção vertical */  
+    align-items: center; /* Alinhar centralmente */  
+    padding: 20px; /* Espaçamento ao redor */  
+    min-height: 100vh; /* Para garantir que a altura mínima seja a da tela */  
+}  
+
+.list-api {  
+    display: grid;  
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Grid responsivo para cartões */  
+    gap: 20px; /* Espaçamento entre os cartões */  
+    max-width: 1200px; /* Largura máxima do container */  
+    width: 100%; /* Permitir que ocupe toda a largura disponível */  
+}  
+
+/* Carregando texto estilizado */  
+.list-api p {  
+    color: #fff; /* Cor do texto */  
+    font-size: 1.5em; /* Aumenta o tamanho do texto */  
+    text-align: center; /* Centraliza o texto */  
+    margin-top: 50px; /* Espaço acima do texto de carregamento */  
+}  
+
+/* Estilo do cartão */  
+.card {  
+    background: rgba(255, 255, 255, 0.9); /* Fundo branco semitransparente */  
+    border-radius: 15px; /* Bordas arredondadas */  
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */  
+    padding: 20px; /* Espaçamento interno do cartão */  
+    transition: transform 0.2s; /* Efeito suave de transformação */  
+    max-height: 200px; /* Altura máxima do cartão */  
+    overflow: hidden; /* Esconde o excesso de conteúdo */  
+}  
+
+.card:hover {  
+    transform: scale(1.05); /* Aumenta levemente o cartão ao passar o mouse */  
+}  
+
+/* Estilo do título e do texto no cartão */  
+.card h3 {  
+    color: #2a5298; /* Cor do título do cartão */  
+    font-size: 1.5em; /* Tamanho do título */  
+    margin-bottom: 10px; /* Espaço abaixo do título */  
+}  
+
+.card p {  
+    color: #333; /* Cor do texto do cartão */  
+    line-height: 1.5; /* Aumenta o espaçamento entre linhas */  
+    overflow: hidden; /* Limita a exibição do texto */  
+    text-overflow: ellipsis; /* Exibe reticências se o texto for muito longo */  
+    white-space: nowrap; /* Não quebra a linha */  
+}

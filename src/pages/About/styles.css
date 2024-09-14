@@ -1,0 +1,31 @@
+.about-page {  
+    background-color: #f0f4f8; /* Um fundo suave para a página */  
+    padding: 40px; /* Padding generoso */  
+    border-radius: 8px; /* Bordas arredondadas */  
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidade */  
+    text-align: center; /* Centraliza o texto */  
+    max-width: 800px; /* Largura máxima para manter o texto organizado */  
+    margin: auto; /* Centraliza a página horizontalmente */  
+}  
+
+.about-page h2 {  
+    font-size: 2em; /* Tamanho da fonte do título */  
+    color: #333; /* Cor escura para o título */  
+    margin-bottom: 20px; /* Espaço abaixo do título */  
+    font-family: 'Arial', sans-serif; /* Fonte para o título */  
+}  
+
+.about-page span {  
+    font-size: 1.2em; /* Tamanho da fonte do texto */  
+    color: #555; /* Cor mais clara para o texto */  
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */  
+    font-family: 'Verdana', sans-serif; /* Fonte para o texto */  
+}  
+
+.about-page span::first-letter {  
+    font-size: 2em; /* Aumenta o tamanho da primeira letra */  
+    font-weight: bold; /* Deixa a primeira letra em negrito */  
+    float: left; /* Faz a letra flutuar à esquerda */  
+    margin-right: 5px; /* Espaçamento à direita da letra */  
+    line-height: 1; /* Ajusta a altura da linha para ficar alinhada */  
+}

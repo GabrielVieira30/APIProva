@@ -1,0 +1,48 @@
+body {  
+    margin: 0;  
+    font-family: 'Arial', sans-serif; /* Fonte padrão */  
+    background: linear-gradient(135deg, #1e3c72, #2a5298); /* Gradiente para o fundo */  
+    height: 100vh;  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+}  
+
+.home-page {  
+    background: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */  
+    border-radius: 20px; /* Bordas arredondadas */  
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); /* Sombra que dá profundidade */  
+    padding: 40px; /* Padding generoso */  
+    max-width: 600px; /* Largura máxima */  
+    text-align: center; /* Centraliza o texto */  
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */  
+}  
+
+.home-page h2 {  
+    font-size: 2.5em; /* Tamanho da fonte do título */  
+    color: #2a5298; /* Cor do título */  
+    margin-bottom: 20px; /* Espaço abaixo do título */  
+}  
+
+.home-page span {  
+    font-size: 1.2em; /* Tamanho da fonte do texto */  
+    color: #333; /* Cor do texto */  
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas */  
+}  
+
+/* Estilização adicional para um toque especial */  
+@keyframes glow {  
+    0% {  
+        text-shadow: 0 0 5px #a8dadc, 0 0 10px #a8dadc, 0 0 15px #a8dadc;  
+    }  
+    50% {  
+        text-shadow: 0 0 15px #a8dadc, 0 0 20px #a8dadc, 0 0 30px #a8dadc;  
+    }  
+    100% {  
+        text-shadow: 0 0 5px #a8dadc, 0 0 10px #a8dadc, 0 0 15px #a8dadc;  
+    }  
+}  
+
+.home-page h2 {  
+    animation: glow 1.5s infinite; /* Animação do efeito de brilho */  
+}
